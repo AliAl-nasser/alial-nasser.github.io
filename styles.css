@@ -1,8 +1,8 @@
 body {
   font-family: "Lato", sans-serif;
+  color: #FFF;
   margin: 0px;
-  color: darkslategray;
-  background-color: black
+  background-color: #1d1d1d;
 }
 
 .container {
@@ -34,11 +34,11 @@ body {
 }
 
 .active-nav-link {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid white;
 }
 
 .active-nav-link a {
-  color: gray !important;
+  color: white !important;
 }
 
 .nav-link-wrapper a {
@@ -48,11 +48,11 @@ body {
 }
 
 .nav-link-wrapper:hover {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 .nav-link-wrapper a:hover {
-  color: black;
+  color: white;
 }
 
 .portfolio-items-wrapper {
