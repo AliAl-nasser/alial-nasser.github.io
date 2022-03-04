@@ -1,5 +1,5 @@
 VANTA.FOG({
-    el: '#vantajs', 
+    el: '#vantajs2', 
     mouseControls: true,
     touchControls: true,
     gyroControls: false,
@@ -12,3 +12,4 @@ VANTA.FOG({
     speed: 3.0,
     zoom: 1.50
     })
+    
