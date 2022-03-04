@@ -1,15 +1,13 @@
-VANTA.FOG({
-    el: '#vantajs2', 
+VANTA.TOPOLOGY ({
+    el: '#vantajs', 
     mouseControls: true,
     touchControls: true,
     gyroControls: false,
     minHeight: 200.00,
     minWidth: 200.00,
-    highlightColor: 0x482336,
-    midtoneColor: 0x41373b,
-    lowlightColor: 0x22228e,
-    baseColor: 0x141414,
-    speed: 3.0,
-    zoom: 1.50
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0x20b2aa,
+    backgroundColor: 0x1d1d1d
     })
     
