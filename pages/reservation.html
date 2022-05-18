@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact | Pizzeria Piacere</title>
+        <title>Reservation | Pizzeria Piacere</title>
         <link href="../styles/Normalize.css" rel="stylesheet"/> 
         <link href="../styles/style.css" rel="stylesheet"/>
         <script src="../js/validate.js"></script>
@@ -27,7 +27,7 @@
                                 <li><a href="../index.html">Home</a></li>
                                 <li><a href="menu.html">Menu</a></li>
                                 <li><a href="Gallery.html">Gallery</a></li>
-                                <li class="active"><a href="contact.html">Contact</a></li>
+                                <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -40,17 +40,34 @@
             </header>
 
             <main>
-                <h1>Contact Pizzeria Piacere</h1>
-                <form action="contactform.html" onsubmit="return validateForm()" method='get' id="form">
+                <h1>Pizzeria Piacere Reservations</h1>
+                <p id="note"><b>Please note:</b> Reservations can only be made between 13:00 - 20:00</p>
+                <form action="reservationform.html" onsubmit="return validatereservation()" method="get" id="resform">
+                    <h2>Date (required)</h2>
+                    <input type="datetime-local" id="date" name="date">
+                    <h2>Number Of People</h2>
+                    <select name="antal" id="antal">
+                        <option value="antal">1</option>
+                        <option value="antal">2</option>
+                        <option value="antal">3</option>
+                        <option value="antal">4</option>
+                        <option value="antal">5</option>
+                        <option value="antal">6</option>
+                        <option value="antal">7</option>
+                        <option value="antal">8</option>
+                        <option value="antal">9</option>
+                        <option value="antal">10</option>
+                        <option value="antal">11</option>
+                        <option value="antal">12</option>
+                    </select>
+                    <h2>Personal Information</h2>
                     <label for="name">Name (required)</label><br>
                     <input type="text" id="name" name="name" value=""><br><br>
                     <label for="email">Email (required)</label><br>
                     <input type="text" id="email" name="email" value=""><br><br>
                     <label for="number">Phone Number</label><br>
                     <input type="text" id="number" name="number" value=""><br><br>
-                    <label for="message">Message</label><br>
-                    <textarea id="message" name="message" rows="6" cols="60" ></textarea><br><br>
-                    <input id="submit" type="submit" value="Send Message">
+                    <input id="submit" type="submit" value="Submit">
                 </form>
             </main>
 
