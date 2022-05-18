@@ -26,16 +26,16 @@ function handleData(data) {
         var td3 =document.createElement("td");
 
         if(pizza[i].type == "Napoletana") {
-            td1.innerHTML += '<h4>' +pizza[i].name+' ' + pizza[i].price + '</h4><p>'+ pizza[i].ingredients +'</p>';
+            td1.innerHTML += '<h3>' +pizza[i].name+' ' + pizza[i].price + '</h3><p>'+ pizza[i].ingredients +'</p>';
             tr.appendChild(td1)
         }
         else if(pizza[i].type == "Alla Palla") {
-            td2.innerHTML += '<h4>' +pizza[i].name+' ' + pizza[i].price + '</h4><p>'+ pizza[i].ingredients +'</p>';
+            td2.innerHTML += '<h3>' +pizza[i].name+' ' + pizza[i].price + '</h3><p>'+ pizza[i].ingredients +'</p>';
             row1[x].appendChild(td2)
             x++;
         }
         else if (pizza[i].type == "Siciliana") {
-            td3.innerHTML += '<h4>' +pizza[i].name+' ' + pizza[i].price + '</h4><p>'+ pizza[i].ingredients +'</p>';
+            td3.innerHTML += '<h3>' +pizza[i].name+' ' + pizza[i].price + '</h3><p>'+ pizza[i].ingredients +'</p>';
             row1[y].appendChild(td3)
             y++;
         }
@@ -50,16 +50,16 @@ function handleData(data) {
         var td3 =document.createElement("td");
 
         if(drinks[z].type == "Cocktail") {
-            td1.innerHTML += '<h4>' +drinks[z].name+' ' + drinks[z].price + '</h4>';
+            td1.innerHTML += '<h3>' +drinks[z].name+' ' + drinks[z].price + '</h3>';
             tr.appendChild(td1)
         }
         else if(drinks[z].type == "Beer") {
-            td2.innerHTML += '<h4>' +drinks[z].name+' ' + drinks[z].price + '</h4>';
+            td2.innerHTML += '<h3>' +drinks[z].name+' ' + drinks[z].price + '</h3>';
             row2[k].appendChild(td2)
             k++;
         }
         else if (drinks[z].type == "Non alcoholic") {
-            td3.innerHTML += '<h4>' +drinks[z].name+' ' + drinks[z].price + '</h4>';
+            td3.innerHTML += '<h3>' +drinks[z].name+' ' + drinks[z].price + '</h3>';
             row2[j].appendChild(td3)
             j++;
         }
