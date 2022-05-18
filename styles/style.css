@@ -1,0 +1,217 @@
+@font-face {
+  font-family: 'serif';
+  src: url('/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'cursive';
+  src: url('/fonts/Rampart_One/RampartOne-Regular.ttf');
+}
+
+html {
+    font-size: 100%;
+    background-image: linear-gradient(to left,#ffe1cb , #fde4d4);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.menu {
+  font-size: 100%;
+  line-height: 22px;
+  width: 95%;
+  margin: 2em auto;
+  padding: 1em;
+  border:1px solid #ed3425;
+}
+
+.wrapper::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.wrapper .column nav {
+  margin-top: 3rem;
+}
+
+.wrapper .column button{
+  margin-right: 2rem;
+  margin-top: 2rem;
+  float: right;
+  background-color: #ed3425;
+  color: white;
+  border-radius: 4px;
+  border: #ed3425;
+  width: 200px;
+  height: 40px;
+}
+
+.centered button, #contactform button {
+  background-color: #ed3425;
+  color: white;
+  border-radius: 4px;
+  border: #ed3425;
+  width: 200px;
+  height: 40px;
+}
+
+
+.wrapper .column img {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+nav li{  
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.wrapper .column a{  
+  padding:20px;  
+  color: #000000; 
+  text-decoration: none;
+}
+
+nav a:hover, nav a:focus {
+  color: gray;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  outline: none;
+}
+
+nav .active {
+  text-decoration: underline;
+}
+
+footer p, main .image, main h1, main #center, main form, main #note, #contactform{
+  text-align: center;
+}
+
+.image img {
+  width: 95%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.centered h1 {
+  color: #fff;
+  opacity: 0.8;
+  font-size: 4rem;
+  font-family: 'Rampart One', cursive;
+}
+
+td, th {
+  text-align: left;
+  padding: 0 120px;
+}
+
+
+main form input {
+  width: 500px;
+  height: 20px;
+  border-radius: 4px;
+  border: white;
+}
+
+main #submit {
+  background-color: #ed3425;
+  color: white;
+  border-radius: 4px;
+  border: #ed3425;
+  width: 200px;
+  height: 40px;
+}
+
+figure {
+  text-align: center;
+}
+
+figure img:hover {
+  -webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+hr {
+  border-top: #ed3425;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .wrapper .column a {
+    padding: 1px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  td, th {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 850px) { 
+  .wrapper .column nav li {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 724px) {
+  .image h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  .image button {
+    width: 150px;
+    height: 30px;
+  }
+  .column {
+    width: 100%;
+  }
+  .wrapper .column nav li {
+    display: inline-block;
+    text-align: center;
+  }
+  .wrapper .column {
+    text-align: center;
+  }
+  .wrapper .column button {
+    float: none;
+    margin-bottom: 2rem;
+    margin-right: 0;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffe1cb;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ed3425;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5e0d06;
+}
