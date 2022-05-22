@@ -24,11 +24,6 @@ html {
     background: linear-gradient(to bottom, #f3d8a6 53%, #d3b168 100%);
 }
 
-html, body {
-    margin: 0;
-    height: 100%;
-}
-
 body {
   font-family: 'Vesper Libre', serif;
 }
