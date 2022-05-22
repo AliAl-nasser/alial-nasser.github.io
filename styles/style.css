@@ -26,6 +26,8 @@ html {
 
 body {
   font-family: 'Vesper Libre', serif;
+  margin: 0;
+  height: 100%;
 }
 
 .menu {
