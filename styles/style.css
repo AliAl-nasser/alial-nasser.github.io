@@ -179,6 +179,9 @@ hr {
   border-top: 2px solid #AA180E;
 }
 
+footer i {
+  color:#11760F
+}
 
 @media screen and (max-width: 1200px) {
   .wrapper .column a {
