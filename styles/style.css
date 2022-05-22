@@ -106,6 +106,22 @@ footer p, main .image, main h1, main #center, main form, main #note, #contactfor
   transform: translate(-50%, -50%);
 }
 
+h1{
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: 0.075em;
+}
 
 .centered h1 {
   color: #fff;
@@ -193,6 +209,12 @@ hr {
     float: none;
     margin-bottom: 2rem;
     margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  td, th {
+    padding: 0 15px;
   }
 }
 
