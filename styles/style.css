@@ -21,11 +21,12 @@
 
 html {
     font-size: 100%;
-    background: linear-gradient(to bottom, #f3d8a6 53%, #d3b168 100%);
+    background: linear-gradient(to right, #f3d8a6 0%, #d3b168 100%);
 }
 
 body {
   font-family: 'Vesper Libre', serif;
+  height: 100vh;
 }
 
 .menu {
