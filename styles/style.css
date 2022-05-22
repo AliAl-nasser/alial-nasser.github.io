@@ -1,9 +1,4 @@
 @font-face {
-  font-family: 'Open Sans';
-  src: url('/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf');
-}
-
-@font-face {
   font-family: 'Abril Fatface';
   src: url('/fonts/Abril_Fatface/AbrilFatface-Regular.ttf');
 }
@@ -13,19 +8,24 @@
   src: url('/fonts/Varela/Varela-Regular.ttf');
 }
 
+
 @font-face {
-  font-family: 'Italiana';
-  src: url('/fonts/Italiana/Italiana-Regular.ttf');
+  font-family: 'Vesper Libre';
+  src: url('/fonts/Vesper_Libre/VesperLibre-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/Lato/Lato-Regular.ttf');
 }
 
 html {
     font-size: 100%;
-    background-image: linear-gradient(to left,#ffe1cb , #fde4d4);
+    background-image: linear-gradient(180deg,#F3D8A6 , #D3B168);
 }
 
 body {
-  font-family: 'Italiana', serif;
-  font-weight: 900;
+  font-family: 'Vesper Libre', serif;
 }
 
 .menu {
@@ -58,7 +58,7 @@ body {
   margin-top: 2rem;
   float: right;
   background-color: #AA180E;
-  color: white;
+  color: #FEFEFE;
   border-radius: 4px;
   border: #AA180E;
   width: 200px;
@@ -67,13 +67,16 @@ body {
 
 .centered button, #contactform button {
   background-color: #AA180E;
-  color: white;
+  color: #FEFEFE;
   border-radius: 4px;
   border: #AA180E;
   width: 200px;
   height: 40px;
 }
 
+button {
+  font-family: 'Lato', sans-serif;
+}
 
 .wrapper .column img {
   margin-top: 1rem;
@@ -135,7 +138,7 @@ h1, h2, h3 {
 }
 
 .centered h1 {
-  color: #fff;
+  color: #FEFEFE;
   opacity: 0.8;
   font-size: 4rem;
   font-family: 'Abril Fatface', cursive;
@@ -151,12 +154,12 @@ main form input {
   width: 500px;
   height: 20px;
   border-radius: 4px;
-  border: white;
+  border: #FEFEFE;
 }
 
 main #submit {
   background-color: #AA180E;
-  color: white;
+  color: #FEFEFE;
   border-radius: 4px;
   border: #AA180E;
   width: 200px;
@@ -236,7 +239,7 @@ hr {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #ffe1cb;
+  background: #F3D8A6;
 }
 
 /* Handle */
